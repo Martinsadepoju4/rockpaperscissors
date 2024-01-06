@@ -1,0 +1,223 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.show_rules {
+  display: block;
+}
+.pentagon_container {
+  width: 290px;
+  height: auto;
+  position: relative;
+  margin: 50% auto 50% auto;
+}
+.pentagon {
+  width: 100%;
+  margin: auto;
+}
+.avatar_container {
+  display: grid;
+  place-items: center;
+  background-color: #f9f9f9;
+  width: 110px;
+  height: 110px;
+  border-width: 10px;
+  border-radius: 50%;
+}
+.scissors_container {
+  position: absolute;
+  left: 30%;
+  top: -30%;
+  border-color: #eca922;
+}
+.lizard_container {
+  position: absolute;
+  border-color: #8c5de5;
+  top: 80%;
+  left: 6%;
+}
+.spock_container {
+  position: absolute;
+  border-color: #52bed1;
+  top: 20%;
+  left: -11%;
+}
+.rock_container {
+  position: absolute;
+  border-color: #dd405d;
+  left: 56%;
+  top: 80%;
+}
+.paper_container {
+  position: absolute;
+  left: 70%;
+  top: 20%;
+  border-color: #5671f5;
+}
+.relative_container {
+  position: relative;
+  border-color: #5671f5;
+  width: 130px;
+  height: 130px;
+}
+@media (min-width: 1023px) {
+  .remove_top_margin {
+    margin-top: calc(-45vh + 15vh);
+  }
+}
+
+@media (min-width: 570px) {
+  .pentagon_container {
+    width: 70vw;
+    margin: 20vh auto;
+  }
+
+  .avatar_container {
+    display: grid;
+    width: 140px;
+    height: 140px;
+  }
+  .scissors_container {
+    position: absolute;
+    left: 40%;
+    top: -10%;
+    border-color: #eca922;
+  }
+  .lizard_container {
+    position: absolute;
+    border-color: #8c5de5;
+    top: 80%;
+    left: 15%;
+  }
+  .spock_container {
+    position: absolute;
+    border-color: #52bed1;
+    top: 25%;
+    left: 2%;
+  }
+  .rock_container {
+    position: absolute;
+    border-color: #dd405d;
+    left: 65%;
+    top: 80%;
+  }
+  .paper_container {
+    position: absolute;
+    left: 75%;
+    top: 25%;
+    border-color: #5671f5;
+  }
+}
+.rules {
+  z-index: 11;
+  height: auto;
+  position: absolute;
+  top: 25%;
+  left: calc(50vw - 150px);
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+@media (min-width: 920px) {
+  .pentagon_container {
+    width: 30vw;
+    margin: 10vh auto;
+  }
+
+  .avatar_container {
+    display: grid;
+    width: 110px;
+    height: 110px;
+  }
+  .scissors_container {
+    position: absolute;
+    left: 37%;
+    top: -10%;
+    border-color: #eca922;
+  }
+  .lizard_container {
+    position: absolute;
+    border-color: #8c5de5;
+    top: 80%;
+    left: 6%;
+  }
+  .spock_container {
+    position: absolute;
+    border-color: #52bed1;
+    top: 25%;
+    left: -5%;
+  }
+  .rock_container {
+    position: absolute;
+    border-color: #dd405d;
+    left: 65%;
+    top: 80%;
+  }
+  .paper_container {
+    position: absolute;
+    left: 80%;
+    top: 25%;
+    border-color: #5671f5;
+  }
+  .relative_container {
+    scale: 1.5;
+  }
+}
+@media (max-width: 920px) {
+  .rules {
+    position: absolute;
+    top: 0;
+
+    width: 101vw;
+    height: 100vh;
+    left: 0;
+    border-radius: 0;
+  }
+}
+@media (max-width: 570px) {
+  .rules_button {
+    position: absolute;
+    bottom: 5dvh;
+    left: calc(50vw - 72.35px);
+  }
+  /* .winner_effect {
+    height: 245px;
+    width: 245px;
+  }
+  .first_effect {
+    left: -15%;
+    top: -32%;
+  }
+  .second_effect {
+    right: -15%;
+    top: -32%;
+  } */
+}
+/* @media (max-width: 300px) {
+  .first_effect {
+    left: -60px;
+    top: -45px;
+  }
+  .second_effect {
+    right: -100px;
+    top: -57px;
+  }
+} */
+
+@media (min-width: 1200px) {
+  .remove_top_margin {
+    margin-top: calc(-30vh + 7vh);
+  }
+}
+@media only screen and (min-width: 720px) and (max-width: 1023px) {
+  .first_effect {
+    left: -26%;
+    top: -100%;
+  }
+  .second_effect {
+    right: -170px;
+    top: -200px;
+  }
+}
