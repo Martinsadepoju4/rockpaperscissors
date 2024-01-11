@@ -148,42 +148,36 @@ function Home() {
             width={0}
             height={0}
             style={{ width: "60vw", height: "auto" }}
-            onLoad={handleImageLoad}
           />
           <Avatar
             name="paper"
             function={handleSelections}
             class={styles.paper}
             containerclass={styles.paper_container}
-            onLoadfunction={handleImageLoad}
           />
           <Avatar
             function={handleSelections}
             name="rock"
             class={styles.rock}
             containerclass={styles.rock_container}
-            onLoadfunction={handleImageLoad}
           />
           <Avatar
             function={handleSelections}
             name="lizard"
             class={styles.lizard}
             containerclass={styles.lizard_container}
-            onLoadfunction={handleImageLoad}
           />
           <Avatar
             function={handleSelections}
             name="spock"
             class={styles.spock}
             containerclass={styles.spock_container}
-            onLoadfunction={handleImageLoad}
           />
           <Avatar
             function={handleSelections}
             name="scissors"
             class={styles.scissors}
             containerclass={styles.scissors_container}
-            onLoadfunction={handleImageLoad}
           />
         </div>
 
