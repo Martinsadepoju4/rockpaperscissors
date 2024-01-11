@@ -29,6 +29,7 @@ function Avatar(props) {
         data-name={props.name}
         // sizes="100vw"
         style={{ width: "auto", height: "auto" }}
+        onLoad={() => props.onLoadfunction()}
       />
     </motion.div>
   );

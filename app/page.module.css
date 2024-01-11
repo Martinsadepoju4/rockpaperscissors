@@ -169,7 +169,6 @@
   .rules {
     position: absolute;
     top: 0;
-
     width: 101vw;
     height: 100vh;
     left: 0;
@@ -182,29 +181,7 @@
     bottom: 5dvh;
     left: calc(50vw - 72.35px);
   }
-  /* .winner_effect {
-    height: 245px;
-    width: 245px;
-  }
-  .first_effect {
-    left: -15%;
-    top: -32%;
-  }
-  .second_effect {
-    right: -15%;
-    top: -32%;
-  } */
 }
-/* @media (max-width: 300px) {
-  .first_effect {
-    left: -60px;
-    top: -45px;
-  }
-  .second_effect {
-    right: -100px;
-    top: -57px;
-  }
-} */
 
 @media (min-width: 1200px) {
   .remove_top_margin {

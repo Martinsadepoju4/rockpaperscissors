@@ -28,7 +28,7 @@ function Step2() {
     <div className="p-[30px] lg:p-[50px] md:p-[50px] lg:h-full">
       <Scoreboard />
       <div
-        className={`${additionalClasses} md:relative md:mx-auto md:left-[0]  absolute lg:absolute lg:mt-[40px] md:mt-[10vh] flex justify-between h-auto w-[85%]  lg:h-[42vh] md:w-[90%] m-auto items-baseline`}
+        className={`${additionalClasses} md:relative md:mx-auto md:left-[0]   absolute lg:absolute lg:mt-[40px] md:mt-[10vh] flex justify-between h-auto w-[85%]  lg:h-[42vh] md:w-[90%] m-auto items-baseline`}
       >
         {resultMessage === "YOU WIN" ? (
           <div className="flex lg:flex-col-reverse flex-col items-center justify-between md:scale-[initial] lg:scale-[initial] lg:h-full">
